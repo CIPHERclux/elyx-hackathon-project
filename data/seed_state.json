@@ -1,0 +1,2922 @@
+{
+  "date_iso": "2027-07-13",
+  "week_index": 0,
+  "member": {
+    "name": "Rohan Patel",
+    "age": 37,
+    "residence": "Singapore",
+    "chronic_condition": "Hypertension",
+    "adherence_rate": 0.52,
+    "travel_weeks": [
+      "2025-01-08",
+      "2025-02-05",
+      "2025-03-05",
+      "2025-04-02"
+    ]
+  },
+  "cadence": {
+    "exercise_update_days": 14,
+    "diagnostic_interval_days": 90,
+    "max_curiosity_chats_per_week": 5,
+    "diet_update_days": 14,
+    "behavior_update_days": 14
+  },
+  "last_events": {
+    "exercise_update": "2027-07-03",
+    "diagnostic_test": "2027-04-27",
+    "behavior_update": "2025-09-08",
+    "diet_update": "2027-06-30"
+  },
+  "next_due": {
+    "exercise_update": "2027-07-03",
+    "diagnostic_test": "2027-04-27",
+    "behavior_update": "2025-12-05",
+    "diet_update": "2027-06-30"
+  },
+  "kpis": {
+    "hrv": 42,
+    "vo2max": 41,
+    "cholesterol_total": 198,
+    "hdl": 48,
+    "ldl": 125,
+    "triglycerides": 160,
+    "sleep_quality": 54,
+    "stress_resilience": 54,
+    "blood_sugar_fasting": 105,
+    "hba1c": 5.7,
+    "vitamin_d": 28,
+    "crp": 2.1
+  },
+  "elyx_rules": {
+    "allowed_test_panel": [
+      "CBC",
+      "Comprehensive Metabolic Panel",
+      "Lipid panel",
+      "HbA1c",
+      "CRP",
+      "Vitamin D",
+      "Thyroid panel"
+    ],
+    "forbidden_actions": [
+      "surgery",
+      "inpatient_procedures",
+      "hospital_admission",
+      "chemotherapy",
+      "biopsy",
+      "organ_transplant"
+    ]
+  },
+  "run_id": 15,
+  "pending_exercise_updates": [
+    {
+      "date_iso": "2027-06-20",
+      "reason": "short"
+    },
+    {
+      "date_iso": "2027-05-26",
+      "reason": "short"
+    },
+    {
+      "date_iso": "2027-07-03",
+      "reason": "short"
+    }
+  ],
+  "pending_tests": [
+    {
+      "test_type": "Lipid panel",
+      "date_iso": "2025-04-03"
+    },
+    {
+      "test_type": "Lipid panel",
+      "date_iso": "2025-04-03"
+    },
+    {
+      "test_type": "Lipid panel",
+      "date_iso": "2025-04-03"
+    },
+    {
+      "test_type": "Lipid panel",
+      "date_iso": "2025-04-03"
+    },
+    {
+      "test_type": "Lipid panel",
+      "date_iso": "2025-04-03"
+    },
+    {
+      "test_type": "Lipid panel",
+      "date_iso": "2025-04-17"
+    }
+  ],
+  "plan": {
+    "history": [
+      {
+        "week_start": "2025-04-17",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": ""
+      },
+      {
+        "week_start": "2025-04-24",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": ""
+      },
+      {
+        "week_start": "2025-04-25",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": ""
+      },
+      {
+        "week_start": "2025-05-02",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": ""
+      },
+      {
+        "week_start": "2025-05-04",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": ""
+      },
+      {
+        "week_start": "2025-05-11",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": ""
+      },
+      {
+        "week_start": "2025-05-18",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": ""
+      },
+      {
+        "week_start": "2025-05-18",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": ""
+      },
+      {
+        "week_start": "2025-05-25",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": ""
+      },
+      {
+        "week_start": "2025-06-01",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": ""
+      },
+      {
+        "week_start": "2025-06-08",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": ""
+      },
+      {
+        "week_start": "2025-06-15",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": ""
+      },
+      {
+        "week_start": "2025-06-22",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": ""
+      },
+      {
+        "week_start": "2025-06-29",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": ""
+      },
+      {
+        "week_start": "2025-07-06",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": ""
+      },
+      {
+        "week_start": "2025-07-13",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": ""
+      },
+      {
+        "week_start": "2025-07-15",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": ""
+      },
+      {
+        "week_start": "2025-07-22",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": ""
+      },
+      {
+        "week_start": "2025-07-23",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": ""
+      },
+      {
+        "week_start": "2025-07-30",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": ""
+      },
+      {
+        "week_start": "2025-08-06",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": ""
+      },
+      {
+        "week_start": "2025-08-13",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": ""
+      },
+      {
+        "week_start": "2025-08-20",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": ""
+      },
+      {
+        "week_start": "2025-08-30",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": ""
+      },
+      {
+        "week_start": "2025-09-06",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": ""
+      },
+      {
+        "week_start": "2025-09-13",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": ""
+      },
+      {
+        "week_start": "2025-09-17",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": ""
+      },
+      {
+        "week_start": "2025-09-24",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": ""
+      },
+      {
+        "week_start": "2025-10-01",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": ""
+      },
+      {
+        "week_start": "2025-10-08",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": ""
+      },
+      {
+        "week_start": "2025-10-11",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": ""
+      },
+      {
+        "week_start": "2025-10-18",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": ""
+      },
+      {
+        "week_start": "2025-10-25",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": ""
+      },
+      {
+        "week_start": "2025-11-01",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": ""
+      },
+      {
+        "week_start": "2025-11-07",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": ""
+      },
+      {
+        "week_start": "2025-11-14",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": ""
+      },
+      {
+        "week_start": "2025-11-14",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": ""
+      },
+      {
+        "week_start": "2025-11-21",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": ""
+      },
+      {
+        "week_start": "2025-11-28",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": ""
+      },
+      {
+        "week_start": "2025-12-05",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": ""
+      },
+      {
+        "week_start": "2025-12-12",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": ""
+      },
+      {
+        "week_start": "2025-12-19",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": ""
+      },
+      {
+        "week_start": "2025-12-26",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": ""
+      },
+      {
+        "week_start": "2026-01-02",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": ""
+      },
+      {
+        "week_start": "2026-01-09",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": ""
+      },
+      {
+        "week_start": "2026-01-16",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": ""
+      },
+      {
+        "week_start": "2026-01-23",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": ""
+      },
+      {
+        "week_start": "2026-01-30",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": ""
+      },
+      {
+        "week_start": "2026-02-06",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": ""
+      },
+      {
+        "week_start": "2026-02-13",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": ""
+      },
+      {
+        "week_start": "2026-02-20",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": ""
+      },
+      {
+        "week_start": "2026-02-27",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": ""
+      },
+      {
+        "week_start": "2026-02-27",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-03-06",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-03-13",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-03-13",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-03-20",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-03-27",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-04-03",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-04-10",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-04-17",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-04-24",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-05-01",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-05-08",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-05-15",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-05-22",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-05-29",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-06-05",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-06-12",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-06-19",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-06-26",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-02",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-09",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-16",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-16",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-17",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-17",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-17",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-17",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-17",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-17",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-17",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-17",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-19",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-07-26",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-08-02",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-08-09",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-08-16",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-08-23",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-08-30",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-09-06",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-09-13",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-09-20",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-09-27",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-10-04",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-10-11",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-10-18",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-10-25",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-01",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-08",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-09",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-12",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-12",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-12",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-12",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-12",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-12",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-12",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-12",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-15",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-17",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-11-24",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-12-01",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-12-08",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-12-15",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-12-22",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2026-12-29",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-01-05",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-01-12",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-01-19",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-01-26",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-02-02",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-02-09",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-02-16",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-02-23",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-03-02",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-03-09",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-03-09",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-03-09",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-03-16",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-03-16",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-03-16",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-03-16",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-03-23",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-03-30",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-04-06",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-04-13",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-04-20",
+        "exercises": [
+          {
+            "name": "Brisk walk",
+            "type": "cardio",
+            "duration_min": 30,
+            "sessions_per_week": 4
+          },
+          {
+            "name": "Short run intervals",
+            "type": "cardio",
+            "duration_min": 20,
+            "sessions_per_week": 1
+          }
+        ],
+        "diet_focus": "increase whole grains and fruit",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-04-27",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-05-04",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-05-11",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-05-18",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-05-25",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-06-01",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-06-08",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-06-15",
+        "exercises": [
+          {
+            "name": "Mindful breathing",
+            "type": "stress",
+            "duration_min": 10,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "reduce stimulants; increase magnesium-rich foods",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-06-22",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-06-29",
+        "exercises": [
+          {
+            "name": "Bodyweight circuit",
+            "type": "strength",
+            "duration_min": 20,
+            "sessions_per_week": 3
+          },
+          {
+            "name": "Core routine",
+            "type": "strength",
+            "duration_min": 10,
+            "sessions_per_week": 2
+          }
+        ],
+        "diet_focus": "increase protein at breakfast",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-07-06",
+        "exercises": [
+          {
+            "name": "Evening wind-down",
+            "type": "habit",
+            "duration_min": 15,
+            "sessions_per_week": 7
+          }
+        ],
+        "diet_focus": "sleep-supporting meals; avoid late caffeine",
+        "note": "Plan adapted for Singapore's climate."
+      },
+      {
+        "week_start": "2027-07-13",
+        "exercises": [
+          {
+            "name": "Yoga / mobility mix",
+            "type": "mobility",
+            "duration_min": 25,
+            "sessions_per_week": 4
+          }
+        ],
+        "diet_focus": "hydrate and monitor sodium",
+        "note": "Plan adapted for Singapore's climate."
+      }
+    ]
+  },
+  "recent_non_follow_events": 63,
+  "persona_snapshot": {
+    "trust": 61,
+    "engagement": 53,
+    "frustration": 24
+  },
+  "pending_diet_updates": [
+    {
+      "date_iso": "2027-06-30",
+      "reason": "overdue_update"
+    },
+    {
+      "date_iso": "2027-03-29",
+      "reason": "overdue_update"
+    }
+  ],
+  "pending_behavior_updates": [
+    {
+      "date_iso": "2025-09-08",
+      "reason": "improve sleep quality"
+    },
+    {
+      "date_iso": "2025-12-05",
+      "reason": "focus on sleep hygiene for recovery"
+    }
+  ],
+  "weekly_time_commitment": {
+    "hours": {
+      "exercise_plan": 1.6666666666666667
+    }
+  },
+  "time_commitment_log": [
+    {
+      "date_iso": "2026-10-13",
+      "hours": 0.5,
+      "activity": "diet planning"
+    },
+    {
+      "date_iso": "2026-10-04",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-10-11",
+      "hours": 1.3333333333333333,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-10-18",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-10-29",
+      "hours": 1.0,
+      "activity": "diagnostic testing"
+    },
+    {
+      "date_iso": "2026-10-26",
+      "hours": 1.5,
+      "activity": "diagnostic testing"
+    },
+    {
+      "date_iso": "2026-10-25",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-10-26",
+      "hours": 1.0,
+      "activity": "diagnostic testing"
+    },
+    {
+      "date_iso": "2026-10-29",
+      "hours": 1.0,
+      "activity": "diagnostic testing"
+    },
+    {
+      "date_iso": "2026-11-06",
+      "hours": 0.5,
+      "activity": "diet planning"
+    },
+    {
+      "date_iso": "2026-11-01",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-06",
+      "hours": 0.5,
+      "activity": "diet planning"
+    },
+    {
+      "date_iso": "2026-11-06",
+      "hours": 0.5,
+      "activity": "diet planning"
+    },
+    {
+      "date_iso": "2026-11-18",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2026-11-08",
+      "hours": 1.1666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-09",
+      "hours": 2.3333333333333335,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-12",
+      "hours": 2.3333333333333335,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-12",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-12",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-12",
+      "hours": 2.3333333333333335,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-12",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-12",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-12",
+      "hours": 1.1666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-12",
+      "hours": 2.3333333333333335,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-18",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2026-11-15",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-17",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-11-18",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2026-11-24",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-12-04",
+      "hours": 0.5,
+      "activity": "diet planning"
+    },
+    {
+      "date_iso": "2026-12-01",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-12-15",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2026-12-08",
+      "hours": 2.3333333333333335,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-12-15",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-12-22",
+      "hours": 1.1666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2026-12-29",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2026-12-29",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-01-05",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-01-19",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-01-19",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-01-12",
+      "hours": 2.3333333333333335,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-01-19",
+      "hours": 2.3333333333333335,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-02-03",
+      "hours": 0.5,
+      "activity": "diet planning"
+    },
+    {
+      "date_iso": "2027-04-24",
+      "hours": 1.0,
+      "activity": "diagnostic testing"
+    },
+    {
+      "date_iso": "2027-01-27",
+      "hours": 1.5,
+      "activity": "diagnostic testing"
+    },
+    {
+      "date_iso": "2027-01-26",
+      "hours": 1.3333333333333333,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-01-27",
+      "hours": 1.0,
+      "activity": "diagnostic testing"
+    },
+    {
+      "date_iso": "2027-02-02",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-02-19",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-02-19",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-02-19",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-02-09",
+      "hours": 2.3333333333333335,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-02-16",
+      "hours": 1.1666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-02-17",
+      "hours": 0.5,
+      "activity": "diet planning"
+    },
+    {
+      "date_iso": "2027-02-17",
+      "hours": 0.5,
+      "activity": "diet planning"
+    },
+    {
+      "date_iso": "2027-02-23",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-03-02",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-03-20",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-03-09",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-03-09",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-03-09",
+      "hours": 2.3333333333333335,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-03-29",
+      "hours": 0.5,
+      "activity": "diet planning"
+    },
+    {
+      "date_iso": "2027-03-16",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-03-16",
+      "hours": 1.3333333333333333,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-03-16",
+      "hours": 2.3333333333333335,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-03-16",
+      "hours": 1.3333333333333333,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-03-23",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-03-30",
+      "hours": 1.1666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-04-17",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-04-06",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-04-13",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-10-26",
+      "hours": 1.0,
+      "activity": "diagnostic testing"
+    },
+    {
+      "date_iso": "2027-04-27",
+      "hours": 1.5,
+      "activity": "diagnostic testing"
+    },
+    {
+      "date_iso": "2027-04-20",
+      "hours": 2.3333333333333335,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-04-27",
+      "hours": 1.0,
+      "activity": "diagnostic testing"
+    },
+    {
+      "date_iso": "2027-04-24",
+      "hours": 1.0,
+      "activity": "diagnostic testing"
+    },
+    {
+      "date_iso": "2027-04-27",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-04-27",
+      "hours": 1.0,
+      "activity": "diagnostic testing"
+    },
+    {
+      "date_iso": "2027-05-12",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-05-12",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-05-12",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-05-04",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-05-11",
+      "hours": 1.3333333333333333,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-05-18",
+      "hours": 1.1666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-05-25",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-05-26",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-06-01",
+      "hours": 1.1666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-06-20",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-06-08",
+      "hours": 1.1666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-06-20",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-06-20",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-06-15",
+      "hours": 1.1666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-06-30",
+      "hours": 0.5,
+      "activity": "diet planning"
+    },
+    {
+      "date_iso": "2027-06-30",
+      "hours": 0.5,
+      "activity": "diet planning"
+    },
+    {
+      "date_iso": "2027-06-30",
+      "hours": 0.5,
+      "activity": "diet planning"
+    },
+    {
+      "date_iso": "2027-06-22",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-06-29",
+      "hours": 1.3333333333333333,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-07-03",
+      "hours": 0.5,
+      "activity": "exercise planning"
+    },
+    {
+      "date_iso": "2027-07-06",
+      "hours": 1.75,
+      "activity": "exercise plan"
+    },
+    {
+      "date_iso": "2027-07-13",
+      "hours": 1.6666666666666667,
+      "activity": "exercise plan"
+    }
+  ],
+  "next_test_due_iso": "2027-04-27"
+}
